@@ -1561,7 +1561,7 @@ pre {
   font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000318}}
 pre mark {
   background: none;
   border-bottom: 1px solid;
@@ -1574,7 +1574,7 @@ pre mark {
    <code>&lt;/div&gt;<span class=code-comment>&lt;!-- /wrapper --&gt;</span></code>
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000331}}
 .code-comment {
   /**
    * Override this setting in your theme stylesheet
@@ -1605,7 +1605,7 @@ pre mark {
  * 3. Make sure lines of code don’t wrap.
  * 4. Give the code form by forcing the `code` to honour white-space.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000362}}
 .line-numbers {
   font-family: monospace, serif;
   /* [1] */
@@ -1618,10 +1618,23 @@ pre mark {
   margin-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000370}}
 .line-numbers code {
   white-space: pre;
   /* [4] */
+}
+
+/**
+ * Inline code
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/B\:\/tRAVAUX\/Clients\/6\/00_6TOOLS\/6Tools-FrameworkCSS\/base\/_code\.scss}line{font-family:\0000380}}
+p code {
+  display: inline-block;
+  border: #bfbfbf 1px solid;
+  background: #f2f2f2;
+  padding: 0 0.5em;
+  color: #333333;
+  font-size: 90%;
 }
 
 /*------------------------------------*\

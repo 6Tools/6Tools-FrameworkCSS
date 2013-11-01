@@ -14,11 +14,12 @@ pre{
     color:#333;
     font-family:Monaco,Menlo,Consolas,"Courier New",monospace;
 }
-    pre mark{
-        background:none;
-        border-bottom:1px solid;
-        color:inherit;
-    }
+
+pre mark{
+    background:none;
+    border-bottom:1px solid;
+    color:inherit;
+}
 
 
 /**
@@ -65,6 +66,22 @@ pre{
     overflow:auto;                          /* [3] */
     margin-left:0;
 }
-    .line-numbers code{
-        white-space:pre;                    /* [4] */
-    }
+
+.line-numbers code{
+    white-space:pre;                    /* [4] */
+}
+
+
+
+
+/**
+ * Inline code
+ */
+ p code {
+    display: inline-block;
+    border:darken(#f2f2f2,20%) 1px solid;
+    background:#f2f2f2;
+    padding:0 0.5em;
+    color:darken($primary-color,20%);
+    font-size:90%;
+ }
