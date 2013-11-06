@@ -396,7 +396,7 @@ Text Domain: six_tools
  */
 /**
  * Px to Em Convertion
- * Working in ems is annoying. Think in pixels by using this handy function, emCalc(#)
+ * Working in ems is annoying. Think in pixels by using this handy function, em-calc(#)
  * Just enter the number, no need to mention "px"
  */
 /**
@@ -1554,7 +1554,7 @@ pre, code {
   overflow: auto;
   background: #F5F5F5;
   border: #ccc solid 1px;
-  padding: 0.9375em;
+  padding: emCalc(15px);
   font-size: 13px;
   font-size: 0.8125rem;
   line-height: 1.84615;

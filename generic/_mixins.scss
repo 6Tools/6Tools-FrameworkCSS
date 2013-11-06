@@ -370,10 +370,10 @@ $lap-end:               $desk-start - 1px;
 
 /**
  * Px to Em Convertion
- * Working in ems is annoying. Think in pixels by using this handy function, emCalc(#)
+ * Working in ems is annoying. Think in pixels by using this handy function, em-calc(#)
  * Just enter the number, no need to mention "px"
  */
-@function emCalc($values...) {
+@function em-calc($values...) {
   $max: length($values); // Get the total number of parameters passed
 
   // If there is only 1 parameter, then return it as an integer.
